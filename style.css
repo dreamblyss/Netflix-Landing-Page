@@ -1,0 +1,153 @@
+body{
+
+	margin:0;
+	display:block;
+	-webkit-font-smoothing: antialiased;
+	background: #000;
+	height: 100%;
+	/*color: #999;*/
+	
+
+}
+
+.container{
+	width: 100%;
+	height:100vh;
+	position: relative;
+	background: url('https://i.ibb.co/vXqDmnh/background.jpg') no-repeat center center/cover;
+	
+	border-bottom: 7px solid #c9c9c9;
+   
+	
+	
+}
+
+
+.container::after
+{
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.3);
+	box-shadow:inset -120px -100px -250px #000000;
+	filter: brightness(0.9);
+}
+
+
+
+nav{
+
+	
+	padding:20px;
+	margin:10px;
+}
+
+#nav-left{
+	float:left;
+}
+
+#card{
+
+	line-height:1.1;
+	margin-bottom: 0.5rem;
+
+}
+
+
+.netflix{
+
+	font-family: 'Bebas Neue';
+	font-weight: bold;
+	color:#e50914;
+
+}
+
+#nav-right{
+	float:right;
+}
+
+.sign-in{
+
+	background-color: #e50914;
+	line-height: normal;
+	padding: 7px 17px;
+	font-weight: 400;
+	font-size: 1rem;
+	color:#ffffff;
+	border:1px solid #e50914;
+	border-radius: 5px;
+
+
+}
+
+.sign-in a{
+	text-decoration: none;
+	display: inline;
+}
+
+.sign-in a:hover, .sign-in a:active, .sign-in a:link{
+	color:#ffffff;
+	font-weight: 400;
+}
+
+.main{
+	/*border:5px solid white;*/
+	text-align:center;
+	margin:130px auto;
+	font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding:10px;
+}
+
+.sub-main{
+	/*border:5px solid white;*/
+	width: 640px;
+	margin:0 auto;
+
+}
+
+
+.button{
+	margin-top:50px;
+
+
+}
+#card{
+
+	color:#ffffff;
+	font-weight: bold;
+	font-size: 3.2em;
+}
+
+#card2{
+
+	font-weight: normal;
+	color:white;
+	font-family:'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+.get{
+
+	color:#ffffff;
+	background: #e50914;
+	border: 1px solid red;
+	padding: 10px;
+	height: 10vh;
+	width: 233.8px;
+	
+}
+
+.now{
+	font-weight: normal;
+	font-size: 23px;
+}
+
+
+
+
